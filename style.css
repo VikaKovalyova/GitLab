@@ -9,7 +9,7 @@ color: black;
 }
 a:hover,a:focus,a:link{
 color: orange;
-transition: 0.5s all;
+transition: 1s all;
 }
 li{
 list-style-type: none;

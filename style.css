@@ -1,0 +1,430 @@
+
+*{
+margin:0;
+padding: 0;
+}
+a{
+text-decoration: none;
+color: black;
+}
+a:hover,a:focus,a:link{
+color: orange;
+transition: 0.5s all;
+}
+li{
+list-style-type: none;
+}
+.menu{
+height: 70px;
+background: white;
+border-bottom: 1px solid rgba(0,0,0,.2);
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+right: 50px;
+     
+}
+.links a{
+margin: 0 25px;
+font-size: 15px;
+font-weight: bold;
+  
+}
+
+.logo{
+height: 24px;
+margin-left: 15px;
+}
+.menu button:hover{
+    transition: 0.5s all;
+    color: white;
+    border: 1px solid orange;
+    background: orange;
+}
+.menu button{
+    background: white;
+    border: 1px solid orange;
+    color: orange;
+    margin-right: 60px;
+    font-size: 17px;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+/*Main start******************/
+.section{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    height: 100%;
+}
+.main .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+background-color:#f2f8ff;
+    height: 100vh;
+    width: 100%;
+}
+.main h1{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    color: rgba(0,0,0,.8);
+}
+.main h3{
+    font-size: 22px;
+    margin: 23px 0px;
+    color: rgba(0,0,0,.6);
+}
+.main button:hover{
+    transition: 0.5s all;
+    color: white;
+    border: 0px solid orange;
+    background: orange;
+}
+.main button{
+    border: 0px solid orange;
+    background: white;
+    color: black;
+    font-size: 17px;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+/********/
+.too{
+    display: flex;
+    justify-content: center;
+}
+.too .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 100px; 
+ 
+}
+.too{
+    background: rgba(0,0,0,.0);
+    height: 100vh;
+    width: 100%;
+  
+}
+.about .about-btn{
+    display: flex;
+    flex-direction: row;
+    padding: 35px;
+  
+}
+.about-btn .button1 button{
+    border: 0.5px solid red;
+    color: white;
+    background-color: red;
+    border-color: red;
+    padding: 15px;
+    margin: 0 15px;   
+}
+.about-btn .button1 button:hover{
+    background-color: orange;
+    border-color: orange;    
+}
+.about-btn .button2 button{
+    border: 0.5px solid white;
+    color: red;
+    background-color: white;
+    border-color: red;
+    padding: 15px;    
+}
+.about-btn .button2 button:hover{
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+.about .text h1{
+    font-size: 46px;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    color:rgba(0,0,0,.8);
+    padding: 7px; 
+}
+  
+.about .text h2{
+    font-size: 25px;
+    margin: 5px; 
+    color: rgba(0,0,0,.4);
+    padding: 7px;
+    
+} 
+.about .text h3{
+    font-size: 20 px;
+    margin: 5px;
+    color: rgba(0,0,0,.4);
+    padding: 7px;
+    line-height: 1.9;
+}
+.too .container img{
+    width: 570px;
+    height: 550px;
+}
+.too .text {
+    margin: 25px;
+    padding: 15px;
+    
+}
+/******************/
+.big-box {
+     padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+   
+}
+
+.big-box >.container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-flow: row wrap;    
+}
+
+.box {
+    width: 33%;
+   outline: 1px solid #dedede;
+    justify-content: center;
+    align-items: center;
+     padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.big-box i{
+    display: block;
+    color: orangered;
+    width: 5%;
+    padding: 10px;
+    margin: 20px;
+    font-size: 36px;
+}
+
+.big-box .box>div {
+    font-size: 24px;
+    
+}
+
+.big-box .box-text {
+    width: 66%;
+}
+.big-box .aptext{
+    height: 100%;
+    color:#dedede;
+}
+/************************/
+.Lisa{
+    display: flex;
+    justify-content: flex-start;
+}
+.Lisa .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 100px;
+ 
+}
+.Lisa{
+    background: rgba(0,0,0,.0);
+    height: 100vh;
+    width: 100%;
+  
+}
+.Lisa .text{
+    margin: 50px;
+    padding: 30px;
+    
+    
+    
+    
+
+}
+.Lisa .text h1{
+    font-size: 42px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: rgba(0,0,0,.8);
+}
+.Lisa .text h3{
+    font-weight: 300;
+    margin-top: 30px;
+    letter-spacing: 0em;
+    color: rgba(0,0,0,.6);
+    line-height: 1.4em;
+    font-size: 19px;
+    padding: 10px;
+}
+.Lisa .text h5{
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: rgba(0,0,0,.8);
+    margin-top: 5px;
+    padding: 15px;
+    line-height: 1.4;
+} 
+.Lisa .container img{
+    width: 450px;
+    height: 541px;
+    
+}
+
+/***********************/
+.We {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: #f2f8ff;
+    
+}
+.We .container {
+    max-width: 720px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.We h1{
+    font-size: 52px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #414244;
+    width: 690px;
+    height: 50px;
+    text-align: center;
+    
+}
+.We h3{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.9;
+    letter-spacing: .025em;
+    color: #808081;
+    margin-top: 20px;  
+    margin-left: -15px;
+    text-align: center
+}
+
+.We .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding-right:5px;
+    
+}
+.We .btn .btn1 button{
+    border: 0.5px solid red;
+    color: white;
+    background-color: red;
+    border-color: red;
+    padding: 14px 11px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-left: -65px;
+}
+.We .btn .btn1 button:hover{
+    background-color: orange;
+    border-color: orange;
+    
+}
+.We .btn .btn2 button{
+    border: 0.5px solid white;
+    color: red;
+    background-color: transparent;
+    border-color: red;
+    padding: 14px 11px;
+    margin-bottom: 10px;
+
+}
+.We .btn .btn2 button:hover{
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+/**********************/
+.www {  
+display: flex;
+    
+height: 100%; 
+padding: 150px;
+background-color: white;   
+}
+
+.www h1 {
+    font-size: 52px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #414244;
+    text-align: center;
+}
+.www h3{
+    margin-top: 25px;
+    font-size: 19px;
+    line-height: 1.9;
+    font-weight: 300;
+    letter-spacing: .025em;
+color: #808081;
+    margin-top: 20px;
+    text-align: center;
+}
+.www .kartinki{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+ line-height: 1.94118;
+    font-weight: 300;
+    letter-spacing: .025em;
+    color: #808081;   
+    opacity: .5;
+    transition: all .3s ease;
+    margin-left: -60px;
+}
+.kartinki .a{height:111px;
+    position: relative;
+    height: 140px;
+    width: 265px;
+    background: #ffffff;
+    border: 1px solid #808081;
+    margin:  15px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+/******************************/
+
+
+    
+
+    
+
+
